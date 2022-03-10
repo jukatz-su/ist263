@@ -1,0 +1,15 @@
+body {background-color:#FFEDED;}
+.lightpinknav {color:#FFEDED;}
+
+p {color:#362222;}
+
+a {color:#B3541E;}
+.lightpinknav {color:#FFEDED;}
+
+h1, h2 {color:#B3541E;}
+
+nav {background-color: beige;}
+nav a {color:cadetblue;}
+nav a:hover {background-color: cornflowerblue;}
+nav {padding: 10px}
+nav {margin-bottom: 30px;}
