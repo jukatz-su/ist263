@@ -1,0 +1,14 @@
+.pinknav {color:#FFBAFE}
+nav {background-color: #FFBAFE;}
+.flex-container {
+    display: flex;
+    justify-content: center;
+  }
+
+nav a {color:black;}
+nav a {font-family: 'Times New Roman', Times, serif;}
+nav a:hover {background-color: lightsteelblue;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px;}
+
+
