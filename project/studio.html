@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<style>
+      .flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffd9fc;
+}
+.flex-container > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-family:Quicksand; 
+  font-size: 15px;
+}
+    #skip {
+        position: absolute; 
+        left: -999px;
+        background-color:beige;
+        padding: 5px;
+    }
+    #skip:focus {
+        left: 10px;
+    }
+    @media only screen and (max-width: 800px) {
+                h1 {font-size: 4em;}
+                .container {
+                    flex-flow: column wrap;
+                }
+            }
+
+.container{
+    display: flex;
+    padding: 1em;
+}
+.main,
+.aside {
+    flex: 2;
+    padding: 1em;
+    margin: .6em;
+    background-color: white;
+}
+.aside {
+    display:flex;
+    flex: 1;
+}
+.nested {
+    flex: 1;
+    margin: .01em;
+}
+p {
+    font-family:Quicksand;
+}
+h1 {
+        text-align:center;
+        font-family: Momcake;
+        font-size: 5em;
+    }
+        
+    h2 {
+        text-align:center;
+        font-family: Momcake;
+        font-size: 2em;
+    }
+    h3 {
+        text-align:center;
+        font-family: Momcake;
+        font-size: 1em;
+    }
+    h4 {
+        text-align:center;
+        font-family: Momcake;
+        font-size: 2em;
+    }
+    h5 {
+        text-align:center;
+        font-family: Momcake;
+        font-size: 1em;
+    }
+    
+.flexbox img {
+    padding: 1em;
+}
+ 
+</style>
+<body>
+    
+    <div class="flex-container">
+        <div> <a href="home.html">Home</a></div>
+        <div> <a href="design.html">Design</a></div>
+        <div> <a href="studio.html">Studio</a> </div>  
+      </div>
+    
+      <h1 style="color:#a879a8;">JULIET KATZ</h1>  
+
+<div class="flexbox">
+    <section class="container">   
+       <img src="../Images/Misha- Film inside.jpg" alt="
+       misha"
+       width="300"
+       height="300">
+ 
+    <img src="../Images/Misha.jpg" alt="mishfilmoutside"
+    width="300"
+        height="300">
+    <aside class="aside">
+        <article class="nested"> 
+           <h2>
+               Misha Nonoo
+           </h2> 
+           <h3>
+            Design Intern <br> Photoshoot Assistant
+           </h3>
+            
+           <p>
+                Misha Nonoo is a chic, sustainable fashion line for women on the go, founded by fashion designer Misha Nonoo, with a league of devoted fans including Meghan Markle, Bella Hadid and Amal Clooney.  While studying in New York City at Parsons School of Design, I worked as an intern for the brand, assisting with fashion shoots and promotional events. Collaborating closely with the Design and Marketing teams, I developed social media content, scouted locations for shoots, created mood boards and assisted with casting talent.
+            </p>
+        </article>
+    
+    </aside>
+
+</div>
+
+
+<div class="flexbox">
+    <section class="container">   
+        <img src="../Images/Playground Edge.jpg" alt="theplayground"
+        width="300"
+        height="300">
+    
+        <img src="../Images/Playground Normal Flier.png" alt="playgroundflier"
+        width="300"
+        height="300">
+    <aside class="aside">
+        <article class="nested"> 
+            <h4>
+                The Playground
+            </h4> 
+            <h5>
+             Graphic Designer
+            </h5>
+           
+            <p>
+                Worked with The Playground, a student-lead comedy club at Syracuse University. I produced weekly social media content to create an aesthetic for They Playground brand. 
+            </p>
+            <p>
+                Adobe Photoshop, Illustrator, InDesign
+            </p>
+        </article>
+    
+    </aside>
+
+</div>
+
+     
+</section>
+      <hr>
+      <p>&copy;2022</p>
+</body>
+
+</html>

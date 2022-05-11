@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<style>
+   
+   .flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffd9fc;
+}
+.flex-container > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-family:Quicksand;
+  font-size: 15px;
+}
+    #skip {
+        position: absolute; 
+        left: -999px;
+        background-color:beige;
+        padding: 5px;
+    }
+    #skip:focus {
+        left: 10px;
+    }
+    @media only screen and (max-width: 800px) {
+                h1 {font-size: 4em;}
+                .container {
+                    flex-flow: column wrap;
+                }
+            }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .cards img {
+    margin: 10px;
+    border: 3px solid #FFF;
+  }
+
+  .container{
+    display: flex;
+    padding: 1em;
+}
+.main,
+.aside {
+    flex: 2;
+    padding: 1em;
+    margin: .6em;
+    background-color: white;
+}
+.aside {
+    display:flex;
+    flex: 1;
+}
+.nested {
+    flex: 1;
+    margin: .01em;
+}
+h2 {
+        font-family: Momcake;
+        font-size: 2em;
+    }
+p {
+    font-family:Quicksand;
+}
+h1 {
+        text-align:center;
+        font-family: Momcake;
+        font-size: 5em;
+    }
+
+
+</style>
+<body>
+
+  
+    <div class="flex-container">
+        <div> <a href="home.html">Home</a></div>
+        <div> <a href="design.html">Design</a></div>
+        <div> <a href="studio.html">Studio</a> </div>  
+      </div>
+    
+      <h1 style="color:#a879a8;">JULIET KATZ</h1>  
+  
+      <section class="container">  
+        <main class="main">
+      
+            <h2>Liquid Courage New York</h2>
+    <p>
+        Liquid Courage New York offers a collection of swanky and sustainable flasks to eliminate the frustrations of dropping endless amounts of cash on drinks during a night out. We get it - drinks are expensive. That is why we provide cocktail-inspired flasks to fill, refill, and keep with you all night to maintain that euphoric buzz. We offer eight unique flasks that reflect a range of moods. There is something for everyone to love in this spirited collection. Created by two young women who were born, raised, and still enjoying New York City, Liquid Courage New York flasks are a must-have item for the ultimate It Girl and Guy.
+    </p>
+    <p>
+        Our Story <br>
+        Problem: "I really want to buy some drinks, but it's $20 a cocktail, and I'm on a budget."
+    </p>
+    <p>
+        Guide: This frustrating problem led to the creation of Liquid Courage New York, a collection of exclusive, sustainable flasks. Our flasks are a 6-ounce, stainless steel flask in a sleek and sexy design, providing customers with a satisfying, on-the-go alternative to cocktails, delivered with a sense of security.
+    </p>
+    <p>
+        Call to Action: Liquid Courage New York addresses Gen-Z partygoers, along with young Millenials, by aiding in their ability to consume alcohol and look fabulous while doing it. By eliminating the fear of a risky drink and the financial burden of a night out, our flasks provide our customers with prime functionality and accessibility.
+    </p>
+    <p>
+        Navigation: Fill your flasks up with your desired liquid, put it in your bag or pocket, and use it on the go. Your staple drink is now provided in the most convenient form, eradicating the problem of running up a check or misplacing it by the end of the night.
+    </p>
+    <p>
+        Vision: We strive to be a product in every woman's bag and every man's back pocket. "Keys? Wallet? Phone? Flask?"-- we will now be an item on every person's mental checklist before leaving the house for a night out. We provide a necessary staple product that will take the nightlife industry by storm.
+    </p>
+</main>
+
+      <aside class="aside">
+            <article class="nested"> 
+        <main class="cards">
+           <a class="caption"><img src="../Images/LC- Aperol Spritz.png" alt="Aperol Spritz"
+            width="250"
+            height="250"> </a>
+            <span class=dohover>
+            Aperol Spritz</span>
+        </main>
+   
+
+        <main class="cards">
+            <a class="caption"> <img src="../Images/LC- Ranch Water.png" alt="Ranch Water"
+            width="250"
+            height="250"> </a>
+        <span class=dohover>Ranch Water</span>
+        </main> 
+
+
+         <main class="cards">
+            <a class="caption"> <img src="../Images/LC- Old Fashioned.png" alt="Old Fashioned"
+            width="250"
+            height="250">
+        </a>
+        <span class=dohover>
+       Old Fashioned</span>
+    </main>
+   
+       <main class="cards">
+        <a class="caption"> <img src="../Images/LC- Dirty Martini.png" alt="Dirty Martini"
+            width="250"
+            height="250"
+            >
+        </a>
+        <span class=dohover>
+      Dirty Martini</span>
+        </main>
+            </article>
+      </aside>
+
+      <aside class="aside">
+        <article class="nested"> 
+        <main class="cards">
+            <a class="caption">  <img src="../Images/LC- Manhattan.png" alt="Manhattan"
+                width="250"
+                height="250"
+                >
+            </a>
+            <span class=dohover>
+         Manhattan</span>
+            </main> 
+    
+            <main class="cards">
+                <a class="caption"><img src="../Images/LC- Sangria.png" alt="Sangria"
+                 width="250"
+                height="250"
+                >
+            </a>
+            <span class=dohover>
+        Sangria</span>
+            </main> 
+
+            <main class="cards">
+                <a class="caption">  <img src="../Images/LC- Jack & Coke.png" title="Jack & Coke"
+             width="250"
+            height="250"
+            >
+        </a>
+        <span class=dohover>
+   Jack & Coke</span>
+        </main> 
+
+        <main class="cards">
+            <a class="caption">    <img src="../Images/LC- Moscow Mule.png" alt="Moscow Mule"
+                 width="250"
+                height="250"
+                >
+        </a>
+        <span class=dohover>
+  Moscow Mule</span>
+            </main> 
+        </div>
+</article>
+</aside>
+
+</section>
+ <hr>
+<p>&copy;2022</p>
+</body>
+</html>

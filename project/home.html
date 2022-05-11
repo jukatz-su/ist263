@@ -3,19 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
-<link rel="stylesheet" href="../project/project.css">
+<title>Home</title>
+<link rel="stylesheet" href="project.css">
 <style>
 
 .flex-container {
   display: flex;
   justify-content: center;
+  background-color: #ffd9fc;
 }
 .flex-container > div {
   width: 100px;
   margin: 10px;
   text-align: center;
   line-height: 75px;
+  font-family:Quicksand;
   font-size: 15px;
 }
     #skip {
@@ -28,46 +30,117 @@
         left: 10px;
     }
     h1 {
-        text-align:center; 
+        text-align:center;
+        font-family: Momcake;
+        font-size: 5em;
     }
+    h2 {
+        text-align:center;
+        font-family: Momcake;
+        font-size: 2em;
+    }
+    
     @media only screen and (max-width: 800px) {
-                h1 {font-size: 4em;}
+                h1 {font-size: 3em;}
+                .container {
+                    flex-flow: column wrap;
+                }
             }
-           
-           
+
+.container{
+    display: flex;
+    padding: 1em;
+}
+.main,
+.aside {
+    flex: 2;
+    padding: 1em;
+    margin: .6em;
+    background-color: white;
+}
+.aside {
+    display:flex;
+    flex: 1;
+}
+.nested {
+    flex: 1;
+    margin: .01em;
+}
+p {
+    font-family:Quicksand;
+}
+
+a {justify-content: center; }
+
 </style>
 
 </head>
 
 <body>
   
-
     <div class="flex-container">
-        <div> <a href="home.html">Home</a> | </div>
-        <div> <a href="design.html">Design</a> |</div>
+        <div> <a href="file:///Users/julietkatz/Documents/GitHub/ist263/project/home.html">Home</a></div>
+        <div> <a href="design.html">Design</a></div>
         <div> <a href="studio.html">Studio</a> </div>  
       </div>
 
-<h1>Juliet Katz</h1>
+      <h1 style="color:#a879a8;">JULIET KATZ</h1>  
 
-
-   
-    <p>
-        Juliet Katz is a creative thinker with a passion for design and entrepreneurship, who has launched and grown a business. A Design major in the school of Visual and Performing Arts at Syracuse University; skilled in Adobe Creative Suite with a technical background in website design, operations, marketing, social media outreach, and forecasting. New York City native with a special interest in the music, fashion and travel sectors.
-
-     <p>  Juliet has experience as a creative director, content creator, graphic designer, and has collaborated with design and marketing teams in a professional environment. </p> 
-        
-    </p>
-    <h2>Personal Information</h2>
-    <p>
-    I started a company this past year, <strong>Liquid Courage New York</strong>. It is a flask and lifestyle company based in NYC. I lead all business activity including: design, strategy, sales, marketing, and operations. I am proficient in Adobe Suite (Illustrator, InDesign, Photoshop) and Microsoft Office (Word, PowerPoint, Excel). I love music, travel, fashion, film, graphic design, and marketing.
-    </p>
-  
+ <section class="container">
     
-    <hr>
-    <p>&copy;2020</p>
+<main class="main">
+     <img src="../Images/Profile Picture.jpg" alt="profilepicture"
+        width="550"
+        height="650">
+     </main>
+
+
+ <aside class="aside">
+    <article class="nested"> 
+        <p>
+            Juliet Katz is a creative thinker with a passion for design and entrepreneurship, who has launched and grown a business. A Design major in the school of Visual and Performing Arts at Syracuse University; skilled in Adobe Creative Suite with a technical background in website design, operations, marketing, social media outreach, and forecasting. New York City native with a special interest in the music, fashion and travel sectors.
+    
+         <p>  Juliet has experience as a creative director, content creator, graphic designer, and has collaborated with design and marketing teams in a professional environment. </p> 
+
+    <p>
+    Juliet started a company this past year, <strong>Liquid Courage New York</strong>. It is a flask and lifestyle company based in NYC. I lead all business activity including: design, strategy, sales, marketing, and operations. I am proficient in Adobe Suite (Illustrator, InDesign, Photoshop) and Microsoft Office (Word, PowerPoint, Excel). I love music, travel, fashion, film, graphic design, and marketing.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+
+        <a href = "mailto: julietkatz27@gmail.com"><p style="text-align: center"><img src="../Images/Mail.png"   
+            alt="Mail Icon"
+            width="65"
+            height="65"></a>
+
+        <a href="http://www.linkedin.com/in/julietkatz/"><img src="../Images/LinkedIn Icon.png"   
+            alt="LinkedIn Icon"
+            width="65"
+            height="65">
+        </a>
+
+        <a href=tel:"9178210383"><img src="../Images/Phone Icon.png"  
+            alt="Phone Icon"
+            width="65"
+            height="65"></a>
+    </div>
+
+</p>
+<p>
+    <p style="text-align: center">Resume available upon request.</p>
+</p>
+    </article>
+
+</aside>
+      </section>
    
-    <img src="../Images/Profile Picture.jpg" alt="profilepicture">
-    </body>
+        <hr>
+    <p>&copy;2022</p>
+  
+
+</body>
+
+
 
 </html>

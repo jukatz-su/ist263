@@ -1,14 +1,12 @@
-.pinknav {color:#FFBAFE}
-nav {background-color: #FFBAFE;}
-.flex-container {
-    display: flex;
-    justify-content: center;
-  }
+span {
+    display: none;
+    text-align: center;
+    font-family:Quicksand;
+    width:fit-content;
+}
+.caption:hover + span {
+    display: block;
+}
 
-nav a {color:black;}
-nav a {font-family: 'Times New Roman', Times, serif;}
-nav a:hover {background-color: lightsteelblue;}
-nav {padding: 10px;}
-nav {margin-bottom: 30px;}
-
-
+a:visited {color:#015900;}
+a:hover {color:#ffbe82;} 
